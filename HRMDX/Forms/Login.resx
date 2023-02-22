@@ -2942,6 +2942,9 @@
   <data name="&gt;&gt;SvgImageBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tw Cen MT, 28pt, style=Bold</value>
+  </data>
   <data name="&gt;&gt;Guna2Button2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -3024,17 +3027,14 @@
   <data name="&gt;&gt;UsernameComboBox.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="Guna2ToggleSwitch1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 18</value>
-  </data>
   <data name="&gt;&gt;Guna2Shapes1.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Shapes, Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>479, 238</value>
   </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tw Cen MT, 28pt, style=Bold</value>
+  <data name="Guna2Shapes1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="&gt;&gt;Label4.Name" xml:space="preserve">
     <value>Label4</value>
@@ -3131,8 +3131,8 @@
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="Guna2Shapes1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="Guna2ToggleSwitch1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
   </data>
   <data name="SvgImageBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 50</value>
