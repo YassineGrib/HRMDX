@@ -45,4 +45,9 @@ Partial Public Class Form1
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
 
     End Sub
+
+    Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
+        EditeEmployee.ShowDialog()
+
+    End Sub
 End Class

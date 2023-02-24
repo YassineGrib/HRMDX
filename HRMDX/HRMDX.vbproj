@@ -111,16 +111,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\AddEmployees.Designer.vb">
+    <Compile Include="Forms\Emloyees\AddEmployees.Designer.vb">
       <DependentUpon>AddEmployees.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddEmployees.vb">
+    <Compile Include="Forms\Emloyees\AddEmployees.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Employees.Designer.vb">
+    <Compile Include="Forms\Emloyees\Edite.Designer.vb">
+      <DependentUpon>Edite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emloyees\Edite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emloyees\EditeEmployee.Designer.vb">
+      <DependentUpon>EditeEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emloyees\EditeEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emloyees\Employees.Designer.vb">
       <DependentUpon>Employees.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Employees.vb">
+    <Compile Include="Forms\Emloyees\Employees.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.vb">
@@ -130,10 +142,10 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DeleteEmloyee.Designer.vb">
+    <Compile Include="Forms\Emloyees\DeleteEmloyee.Designer.vb">
       <DependentUpon>DeleteEmloyee.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\DeleteEmloyee.vb">
+    <Compile Include="Forms\Emloyees\DeleteEmloyee.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MD\SQL.vb" />
@@ -161,10 +173,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\AddEmployees.resx">
+    <EmbeddedResource Include="Forms\Emloyees\AddEmployees.resx">
       <DependentUpon>AddEmployees.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Employees.resx">
+    <EmbeddedResource Include="Forms\Emloyees\Edite.resx">
+      <DependentUpon>Edite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emloyees\EditeEmployee.resx">
+      <DependentUpon>EditeEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emloyees\Employees.resx">
       <DependentUpon>Employees.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
@@ -176,7 +194,7 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DeleteEmloyee.resx">
+    <EmbeddedResource Include="Forms\Emloyees\DeleteEmloyee.resx">
       <DependentUpon>DeleteEmloyee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />

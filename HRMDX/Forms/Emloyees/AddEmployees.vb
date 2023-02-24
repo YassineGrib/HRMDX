@@ -17,7 +17,7 @@ Public Class AddEmployees
 
     Private Sub Guna2Shapes3_Click(sender As Object, e As EventArgs)
         Me.Close()
-        Employees.Show()
+
     End Sub
 
 
@@ -57,11 +57,11 @@ Public Class AddEmployees
         End If
     End Sub
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Employees.Show()
+
         Me.Close()
 
     End Sub
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
         Clear()
     End Sub
 
@@ -71,5 +71,9 @@ Public Class AddEmployees
         ElseIf Status.Text = "Active" Then
             ExitDate.Enabled = True
         End If
+    End Sub
+
+    Private Sub AddEmployees_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

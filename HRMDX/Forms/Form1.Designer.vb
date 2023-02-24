@@ -56,14 +56,12 @@
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SvgImageBox2 = New DevExpress.XtraEditors.SvgImageBox()
         CType(Me.NavigationFrame1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.NavigationFrame1.SuspendLayout()
         Me.NavigationPage2.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SvgImageBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SvgImageBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2BorderlessForm1
@@ -118,6 +116,7 @@
         '
         'NavigationPage2
         '
+        Me.NavigationPage2.AllowTouchScroll = True
         Me.NavigationPage2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer))
         Me.NavigationPage2.Appearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(237, Byte), Integer))
         Me.NavigationPage2.Appearance.Options.UseBackColor = True
@@ -445,18 +444,6 @@
         Me.SimpleButton7.Size = New System.Drawing.Size(50, 50)
         Me.SimpleButton7.TabIndex = 9
         '
-        'SvgImageBox2
-        '
-        Me.SvgImageBox2.BackColor = System.Drawing.Color.White
-        Me.SvgImageBox2.ForeColor = System.Drawing.Color.Transparent
-        Me.SvgImageBox2.Location = New System.Drawing.Point(7, 12)
-        Me.SvgImageBox2.Name = "SvgImageBox2"
-        Me.SvgImageBox2.Size = New System.Drawing.Size(50, 50)
-        Me.SvgImageBox2.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Zoom
-        Me.SvgImageBox2.SvgImage = CType(resources.GetObject("SvgImageBox2.SvgImage"), DevExpress.Utils.Svg.SvgImage)
-        Me.SvgImageBox2.TabIndex = 161
-        Me.SvgImageBox2.Text = "SvgImageBox2"
-        '
         'Form1
         '
         Me.Appearance.BackColor = System.Drawing.Color.White
@@ -467,7 +454,6 @@
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.ClientSize = New System.Drawing.Size(1024, 550)
-        Me.Controls.Add(Me.SvgImageBox2)
         Me.Controls.Add(Me.SimpleButton7)
         Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.SimpleButton5)
@@ -489,7 +475,6 @@
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SvgImageBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SvgImageBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -523,7 +508,6 @@
     Friend WithEvents colDateOfJoining As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStatus As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colSalary As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents SvgImageBox2 As DevExpress.XtraEditors.SvgImageBox
 
 #End Region
 

@@ -31,12 +31,10 @@ Public Class DeleteEmloyee
 
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Me.Close()
-    End Sub
+
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-        If FullName.Text = "Employee not found !" Then
+        If FullName.Text = "Employee not found !" Or EmployeeID.Text = String.Empty Then
             MsgBox("Please enter a valid employee ID !", MsgBoxStyle.Information)
         Else
             If MsgBox($" Are you sure to Delete {FullName.Text} !", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
@@ -62,10 +60,18 @@ Public Class DeleteEmloyee
     End Sub
 
     Private Sub DeleteEmloyee_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        FullName.ReadOnly = True
     End Sub
 
     Private Sub FullName_TextChanged(sender As Object, e As EventArgs) Handles FullName.TextChanged
+
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
 End Class
